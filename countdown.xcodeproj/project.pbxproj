@@ -21,6 +21,10 @@
 		F1ED098D17D4560300ACD0E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ED096F17D4560200ACD0E5 /* UIKit.framework */; };
 		F1ED099517D4560300ACD0E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1ED099317D4560300ACD0E5 /* InfoPlist.strings */; };
 		F1ED099717D4560300ACD0E5 /* countdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ED099617D4560300ACD0E5 /* countdownTests.m */; };
+		F1F3BC7517D461D700A52531 /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F3BC7417D461D700A52531 /* mhacks.png */; };
+		F1F3BC7617D461D700A52531 /* mhacks.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F3BC7417D461D700A52531 /* mhacks.png */; };
+		F1F3BC7817D4639700A52531 /* logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F3BC7717D4639700A52531 /* logo-white.png */; };
+		F1F3BC7917D4639700A52531 /* logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F3BC7717D4639700A52531 /* logo-white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,8 @@
 		F1ED099217D4560300ACD0E5 /* countdownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "countdownTests-Info.plist"; sourceTree = "<group>"; };
 		F1ED099417D4560300ACD0E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1ED099617D4560300ACD0E5 /* countdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = countdownTests.m; sourceTree = "<group>"; };
+		F1F3BC7417D461D700A52531 /* mhacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhacks.png; sourceTree = "<group>"; };
+		F1F3BC7717D4639700A52531 /* logo-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-white.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 		F1ED095F17D4560200ACD0E5 = {
 			isa = PBXGroup;
 			children = (
+				F1F3BC7717D4639700A52531 /* logo-white.png */,
+				F1F3BC7417D461D700A52531 /* mhacks.png */,
 				F1ED097117D4560200ACD0E5 /* countdown */,
 				F1ED099017D4560300ACD0E5 /* countdownTests */,
 				F1ED096A17D4560200ACD0E5 /* Frameworks */,
@@ -228,6 +236,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F3BC7517D461D700A52531 /* mhacks.png in Resources */,
+				F1F3BC7817D4639700A52531 /* logo-white.png in Resources */,
 				F1ED098417D4560200ACD0E5 /* Images.xcassets in Resources */,
 				F1ED097617D4560200ACD0E5 /* InfoPlist.strings in Resources */,
 				F1ED097F17D4560200ACD0E5 /* Main.storyboard in Resources */,
@@ -238,6 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F3BC7917D4639700A52531 /* logo-white.png in Resources */,
+				F1F3BC7617D461D700A52531 /* mhacks.png in Resources */,
 				F1ED099517D4560300ACD0E5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +466,7 @@
 				F1ED099C17D4560300ACD0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1ED099D17D4560300ACD0E5 /* Build configuration list for PBXNativeTarget "countdownTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +475,7 @@
 				F1ED099F17D4560300ACD0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSDate *destinationDate;
+    
+    IBOutlet UILabel *monthLabel;
+    IBOutlet UILabel *dayLabel;
+    IBOutlet UILabel *hourLabel;
+    IBOutlet UILabel *minuteLabel;
+    IBOutlet UILabel *secondLabel;
+    
+    
+    NSTimer *timer;
+}
+
+- (void)updateLabel;
 
 @end
