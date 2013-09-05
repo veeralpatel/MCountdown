@@ -1,4 +1,4 @@
-mhacks
+MCountdown
 ======
 
 A countdown to MHacks.
